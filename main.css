@@ -1,0 +1,81 @@
+
+/* This is the footer */
+.footer{position:fixed;
+		left:0;
+		bottom:0;
+		width:100%;
+		color:#14261A;
+		text-align:center;
+		background-color:#9dc183;}
+/* This is the body */
+body{background-color:#637F59}
+
+/* These are the headings */
+
+.h1{font-family:Times New Roman;
+	font-size:48px;
+	}
+
+.h2{font-family:Times New Roman;
+	font-size:40px;
+}
+
+/* This is the hovermenu */
+
+.hovermenu ul{
+font: bold 20px arial;
+padding-left: 0;
+margin-left: 0;
+height: 20px;
+}
+
+.hovermenu ul li{
+list-style: none;
+display: inline;
+}
+
+.hovermenu ul li a{
+padding: 2px 0.5em;
+text-decoration: none;
+float: left;
+color: #14261A;
+background-color: #D0F0C0;
+border: 2px solid #D0F0C0;
+}
+
+.hovermenu ul li a:hover{
+background-color: #FFE271;
+border-style: outset;
+}
+
+html>body .hovermenu ul li a:active{ /* Apply mousedown effect only to NON IE browsers */
+border-style: inset;
+}
+/* This is the [paragraph */
+
+p.pdouble{
+   font-family:Times New Roman;
+   font-size:20px;
+   color:#14261A;
+   border-style: double;
+   }
+   
+/* This is the image */
+
+img{
+	width:25%;
+	height:auto;	
+	}  
+	
+img.cal{
+	width:30%;
+	height:auto;	
+	text-align:center;
+	}  
+	
+.round{
+	   border-style: solid;
+
+}
+
+
